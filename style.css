@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #1d1d1f;
+}
+
+header.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 5%;
+  background: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+/* ...existing code... */
+
+.logo img {
+  width: 40px;         /* Adjust size as needed */
+  height: 40px;
+  border-radius: 50%;  /* Makes the logo image rounded */
+  object-fit: cover;
+}
+
+/* Optionally, reduce gap and font size for a more compact logo area */
+.logo {
+  gap: 6px;
+  font-size: 1rem;
+}
+
+/* ...existing code... */
+.navbar nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #5b4bff;
+}
+.btn-primary-outline {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn-primary-outline:hover {
+background-color: #5b4bff;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 5%;
+  background: linear-gradient(to right, #eef4ff, #ffffff);
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1 1 400px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-top: 12px;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: #5b4bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero-text .small {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  color: #555;
+}
+
+.hero-image {
+  flex: 1 1 400px;
+  position: relative;
+  text-align: center;
+  size: 300px;
+  background-image: url(https://th.bing.com/th/id/OIP.9kvuvj_y9GWIs_XqzUUTTgHaEc?w=322&h=193&c=7&r=0&o=7&pid=1.7&rm=3);
+
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.profile-card {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.profile-card .avatar {
+  border-radius: 50%;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0;
+  background: #fff;
+  size: 20px;
+}
+/*...existing code...*/
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;         /* Reduced gap */
+  padding: 20px 0;   /* Reduced padding */
+  background-color:white;
+}
+
+.logos img {
+  height: 44px;      /* Smaller logo images */
+  width: auto;       
+}

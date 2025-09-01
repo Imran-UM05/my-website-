@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flaro Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="https://th.bing.com/th/id/OIP.bxn2LklrZkhQBlyy4W-GYQHaHa?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="flaro logo">
+      <span>flaro</span> <style> span{color: #5b4bff; text-transform: capitalize;}</style>
+    </div>
+    <nav>
+      <a href="#">Features</a>
+      <a href="#">Solutions</a>
+      <a href="#">Resources</a>
+      <a href="#">Pricing</a>
+    </nav>
+    <button class=" btn btn-primary-outline ms-3">Join free for 30 days</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Understand customers<br>better than anyone</h1>
+      <p>Get the best-in-class group mentoring plans and professional benefits for your team.</p>
+      <button class="btn-primary">Start 14 Days Free Trial</button>
+      <p class="small">No credit card required • Cancel anytime</p>
+    </div>
+    <div class="hero-image">
+      <img src="https://th.bing.com/th/id/OIP.9kvuvj_y9GWIs_XqzUUTTgHaEc?w=322&h=193&c=7&r=0&o=7&pid=1.7&rm=3" alt="People">
+      <div class="profile-card">
+        <img class="avatar" src="https://th.bing.com/th/id/OIP.yJl7tLcIl-HhXDdM-wmbrgHaJQ?w=203&h=254&c=7&r=0&o=7&pid=1.7&rm=3" alt="Jane">
+        <div>
+          <h4>Jane Cooper</h4>
+          <p>Joined: ----<br>Last login: ----<br>About: ----</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Logos Section -->
+  <section class="logos">
+    <img src="https://img.freepik.com/premium-photo/colorful-logo-with-word-fire-it_1146250-23071.jpg" alt="logo1">
+    <img src="https://img.freepik.com/premium-vector/hvac-air-logo-design_501861-371.jpg" alt="logo2">
+    <img src="https://image.freepik.com/free-vector/phoenix-bird-logo-template_15146-287.jpg" alt="logo3">
+    <img src="https://img.freepik.com/premium-vector/eagle-logo-with-circular-concept_11481-218.jpg" alt="logo4">
+  </section>
+<script>
+        const img = document.querySelector('img');
+        img.addEventListener('mouseover', () => {
+            img.style.transform = 'scale(1.05)'; // zoom effect on hover
+        });
+        img.addEventListener('mouseout', () => {
+            img.style.transform = 'scale(1)'; // reset zoom effect
+        });
+    </script>
+</body>
+</html>
